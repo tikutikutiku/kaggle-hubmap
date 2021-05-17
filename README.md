@@ -39,6 +39,28 @@ cd src/04_data_preparation_pseudo_label/04_01_kaggle_data
 python data_preparation_pseudo_label_04_01.py
 
 cd src/04_data_preparation_pseudo_label/04_02_kaggle_data_shift
-python 
+python data_preparation_pseudo_label_04_02.py
+
+cd src/04_data_preparation_pseudo_label/04_03_dataset_a_dib
+python data_preparation_pseudo_label_04_03.py
+
+cd src/04_data_preparation_pseudo_label/04_04_dataset_a_dib_shift
+python data_preparation_pseudo_label_04_04.py
+
+cd src/04_data_preparation_pseudo_label/04_05_hubmap_external
+python data_preparation_pseudo_label_04_05.py
+
+cd src/04_data_preparation_pseudo_label/04_06_hubmap_external_shift
+python data_preparation_pseudo_label_04_06.py
+
+cd src/04_data_preparation_pseudo_label/04_07_carno_zhao_label
+python data_preparation_pseudo_label_04_07.py
+
+cd src/04_data_preparation_pseudo_label/04_08_carno_zhao_label_shift
+python data_preparation_pseudo_label_04_08.py
 ```
 6. train with kaggle train + pseudo-labeled data  
+```
+cd src/05_train_with_pseudo_labels
+python train_05.py
+```
