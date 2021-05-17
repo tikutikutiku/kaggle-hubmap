@@ -20,6 +20,25 @@ python data_preparation_01_02.py
 cd src/02_train
 python train_02.py
 ```
-4. pseudo-label generation  
-5. data preparation for pseudo-labeled data  
+
+3. pseudo-label generation  
+```
+cd src/03_generate_pseudo_labels/03_01_pseudo_label_kaggle_data
+python pseudo_label_kaggle_data_03_01.py
+
+cd src/03_generate_pseudo_labels/03_02_pseudo_label_dataset_a_dib
+python pseudo_label_kaggle_data_03_02.py
+
+cd src/03_generate_pseudo_labels/03_03_pseudo_label_hubmap_external
+python pseudo_label_hubmap_external_03_03.py
+```
+
+4. data preparation for pseudo-labeled data
+```
+cd src/04_data_preparation_pseudo_label/04_01_kaggle_data
+python data_preparation_pseudo_label_04_01.py
+
+cd src/04_data_preparation_pseudo_label/04_02_kaggle_data_shift
+python 
+```
 6. train with kaggle train + pseudo-labeled data  
