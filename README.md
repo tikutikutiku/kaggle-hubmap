@@ -1,5 +1,4 @@
-# kaggle-hubmap
-Kaggle HuBMAP 1st Place Solution
+# kaggle-hubmap 1st place solution
 
 This is the training code of the 1st place solution for Kaggle HuBMAP competition.
 
