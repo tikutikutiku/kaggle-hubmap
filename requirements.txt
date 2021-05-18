@@ -1,0 +1,7 @@
+albumentations==0.5.2
+numpy==1.16.6
+opencv-python==4.5.1.48
+pandas==1.2.3
+rasterio==1.2.1
+torch==1.7.1+cu110
+tqdm==4.59.0
