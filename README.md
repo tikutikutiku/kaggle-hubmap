@@ -5,7 +5,22 @@ This is the training code of the 1st place solution for Kaggle HuBMAP competitio
 Solution summary : https://www.kaggle.com/c/hubmap-kidney-segmentation/discussion/238198  
 Inference code : https://www.kaggle.com/tikutiku/hubmap-tilespadded-inference-v2?scriptVersionId=59475269  
 
-Usage  
+
+#HARDWARE: (The following specs were used to create the original solution)  
+Ubuntu 18.04 LTS (2TB boot disk)  
+Core i7-10700K  
+64GB memory  
+1 x NVIDIA GeForce RTX3090  
+
+
+#SOFTWARE: (python packages are detailed separately in `requirements.txt`)  
+Python 3.7.3  
+CUDA 11.2  
+cuddn 8.1.1.33  
+nvidia drivers v.460  
+
+
+#Usage  
 1. data preparation for kaggle train data  
 ```
 cd src/01_data_preparation/01_01
